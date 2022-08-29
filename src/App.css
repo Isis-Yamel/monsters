@@ -5,3 +5,9 @@ body {
   padding: 0;
   text-align: center;
 }
+
+.app-title {
+  font-family: 'Bigelow Rules', cursive;
+  font-size: 6em;
+  text-transform: uppercase;
+}

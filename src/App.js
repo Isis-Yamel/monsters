@@ -36,7 +36,10 @@ class App extends Component {
     });
 
     return (
-      <div className="App">
+      <div>
+        <h1 className='app-title'> 
+          monsters rolo 
+        </h1>
         <SearchBox searchHandler={ handleSearch } />
         <CardList monsters={ filteredMonsters } />
       </div>
