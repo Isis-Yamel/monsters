@@ -1,0 +1,23 @@
+.card-list__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-list__item:nth-child(2n+1) {
+    background-color: rgb(230, 154, 226);
+}
+
+.card-list__item:nth-child(2n) {
+    background-color: rgb(154, 196, 230);
+}
+
+.card-list__item {
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.card-list__item:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
